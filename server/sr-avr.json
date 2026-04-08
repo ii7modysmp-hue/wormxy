@@ -1,1 +1,117 @@
-[]
+{
+    "success": true,
+    "servers": [
+        {
+            "id": 147,
+            "name": "<div id='svhiep'> <div class='ten'>08. New Wormfriends </div> <div class='valu'>Map: 07</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='https:\images/team/wfc.png'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32609/wormy",
+            "status": 1
+        },
+        {
+            "id": 146,
+            "name": "<div id='svhiep'> <div class='ten'>07. New Wormfriends </div> <div class='valu'>Map: 07</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='httes/team/wfc.png'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32017/wormy",
+            "status": 1
+        },
+        {
+            "id": 145,
+            "name": "<div id='svhiep'> <div class='ten'>06. New Wormfriends </div> <div class='valu'>Map: 06</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='httpsimages/team/wfc.png'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32262/wormy",
+            "status": 1
+        },
+        {
+            "id": 144,
+            "name": "<div id='svhiep'> <div class='ten'>05. TH\u01af K\u00dd BIGO </div> <div class='valu'>Map: 05</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='https://y.png'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32095/wormy",
+            "status": 1
+        },
+        {
+            "id": 143,
+            "name": "<div id='svhiep'> <div class='ten'>04. Sen \u0110\u00e1 Gaming</div> <div class='valu'>Map: 04</div> <div class='mau-vang'>NULL</div>  <div class='img-team'> <img src='https://.cn_da.jpg'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32044/wormy",
+            "status": 1
+        },
+        {
+            "id": 142,
+            "name": "<div id='svhiep'> <div class='ten'>03. \ud83c\udd85\ud83c\udd7d\ud83c\udf0dHo\u00e0ng H\u00e0</div> <div class='valu'>Map: 03</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='https://-ha.PNG'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32103/wormy",
+            "status": 1
+        },
+        {
+            "id": 141,
+            "name": "<div id='svhiep'> <div class='ten'>02. BMW ABSI </div> <div class='valu'>Map: 02</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='https:///team/trong-hoan.jpg'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32285/wormy",
+            "status": 1
+        },
+        {
+            "id": 140,
+            "name": "<div id='svhiep'> <div class='ten'>01. PLATEN</div> <div class='valu'>Map: 01</div> <div class='mau-vang'>NULL</div> <div class='img-team'> <img src='h/RQTKt8G.jpeg'/> </div> </div>",
+            "region": "peru",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 470,
+            "name": "<div id='svhiep'> <p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "mexico",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 70,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "eeuu",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 400,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "canada",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 271,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "germania",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 200,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "francia",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 600,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "japon",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 700,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "australia",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        },
+        {
+            "id": 540,
+            "name": "<div id='svhiep'><p style='text-align: center;'>Updating.<br>Please wait, Thanks.</p></div>",
+            "region": "granbretana",
+            "serverUrl": "wss://fra-c.wormate.io:32053/wormy",
+            "status": 1
+        }
+    ]
+}
