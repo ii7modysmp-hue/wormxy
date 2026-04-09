@@ -1,4 +1,4 @@
-var SITE_XTHOST = "https://ii7modysmp-hue.github.io/wormxy";
+var SITE_XTHOST = "https://haylamday.com";
 window.detectLog = null;
 const _wrmxt = {
   BETAisSkinCustom(p) {
@@ -141,7 +141,7 @@ let servers = {
   Api_listServer: []
 };
 async function loadUsers() {
-  await fetch("https://ii7modysmp-hue.github.io/wormxy/users/get.php").then(p10 => p10.json()).then(p11 => {
+  await fetch("https://haylamday.com/api/users.php").then(p10 => p10.json()).then(p11 => {
     if (p11.success) {
       let v8 = p11.Users;
       clientes.clientesActivos = v8.filter(p12 => {
@@ -157,7 +157,7 @@ async function loadUsers() {
   });
 }
 async function loadServers() {
-  await fetch("https://ii7modysmp-hue.github.io/wormxy/server/get.php").then(p17 => p17.json()).then(p18 => {
+  await fetch("https://haylamday.com/api/server.php").then(p17 => p17.json()).then(p18 => {
     if (p18.success) {
       let v20 = p18.servers;
       servers.Api_listServer = v20.filter(p19 => {
@@ -288,12 +288,12 @@ if (theoKzObjects.ModeStremeranclock) {
   ctx.clockan.x = -50;
   ctx.clockan.y = -50;
 }
-ctx.value_server = new PIXI.Text("XY", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("WFC", ctx.fontStyle.name);
 ctx.value_server.x = 55;
 ctx.value_server.y = 0;
 ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
 ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarillo);
-ctx.label_kill = new PIXI.Text("KILL", ctx.fontStyle.morado);
+ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.morado);
 ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
 if (theoKzObjects.ModeStremersaveheadshot) {
   ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);
@@ -4409,7 +4409,7 @@ window.addEventListener("load", function () {
             if (p433 && p433.code === 1485 && p433.error === "expired_token") {
               vLN060++;
               console.log("auto login attempt:", vLN060);
-              $("#login-view").html("<h2>Auto Login Google WormXY : " + vLN060 + "</h2>");
+              $("#login-view").html("<h2>Auto Login Google Wormate Friends Connect : " + vLN060 + "</h2>");
               f85();
             } else {
               f86(p433);
@@ -4426,7 +4426,7 @@ window.addEventListener("load", function () {
             if (p434 && p434.code === 1485 && p434.error === "expired_token") {
               vLN060++;
               console.log("auto login attempt:", vLN060);
-              $("#login-view").html("<h2>Auto Login Google WormXY : " + vLN060 + "</h2>");
+              $("#login-view").html("<h2>Auto Login Google Wormate Friends Conncet : " + vLN060 + "</h2>");
               f85();
             } else {
               f86(p434);
@@ -4436,74 +4436,76 @@ window.addEventListener("load", function () {
           });
         }
         function f86(p435) {
-  if (p435 && p435.user_data) {
-    f100(p435.user_data);
-    var v362 = this.ri;
-    vThis12.qi = true;
-    vThis12.ri = p432;
-    vThis12.si = p435.user_data;
-    theoKzObjects.FB_UserID = p435.user_data.userId;
-    vThis12.ti = p431;
-    f9(vF13.Oe, vThis12.ti, 60);
-    f101();
-    for (var vLN061 = 0; vLN061 < clientes.clientesActivos.length; vLN061++) {
-      var v363 = clientes.clientesActivos[vLN061].cliente_NOMBRE;
-      var v364 = clientes.clientesActivos[vLN061].cliente_ID;
-      var v365 = clientes.clientesActivos[vLN061].Client_VisibleSkin;
-      var v366 = clientes.clientesActivos[vLN061].Client_VisibleSkin1;
-      var v367 = clientes.clientesActivos[vLN061].Client_VisibleSkin2;
-      var v368 = clientes.clientesActivos[vLN061].Client_VisibleSkin3;
-      var v369 = clientes.clientesActivos[vLN061].Client_VisibleSkin4;
-      var v370 = clientes.clientesActivos[vLN061].Client_VisibleSkin5;
-      var v371 = clientes.clientesActivos[vLN061].Client_VisibleSkin6;
-      var v372 = clientes.clientesActivos[vLN061].Client_VisibleSkin7;
-      var v373 = clientes.clientesActivos[vLN061].Client_VisibleSkin8;
-      var v374 = clientes.clientesActivos[vLN061].Client_VisibleSkin9;
-      var v375 = clientes.clientesActivos[vLN061].Client_VisibleSkin10;
-      var v376 = clientes.clientesActivos[vLN061].Client_VisibleSkin11;
-      var v377 = clientes.clientesActivos[vLN061].Client_VisibleSkin12;
-      var v378 = clientes.clientesActivos[vLN061].Client_VisibleSkin13;
-      var v379 = clientes.clientesActivos[vLN061].Client_VisibleSkin14;
-      var v380 = clientes.clientesActivos[vLN061].Client_VisibleSkin15;
-      var v381 = clientes.clientesActivos[vLN061].Client_VisibleSkin16;
-      var v382 = clientes.clientesActivos[vLN061].Client_VisibleSkin17;
-      var v383 = clientes.clientesActivos[vLN061].Client_VisibleSkin18;
-      var v384 = clientes.clientesActivos[vLN061].Client_VisibleSkin19;
-      var v385 = clientes.clientesActivos[vLN061].Client_VisibleSkin20;
-      var v386 = clientes.clientesActivos[vLN061].Client_KeyAccecs;
-      var v387 = clientes.clientesActivos[vLN061].cliente_DateExpired;
-      if (theoKzObjects.FB_UserID == 0) {
-      } else if (theoKzObjects.FB_UserID == v364) {
-        $(".profile-user").append("<div class=\"idwormate\"><input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" style=\"width: 88%; height: 35px; border-radius: 4px; font-size: 18px; text-align: center; background-color: #fff; color: #0a6928; font-weight: 600; display: block;\"/>\n      <button style=\"padding: 19px; float: right; margin-top: -40px; margin-right: -40px; line-height: 0; font-size: 18px;\" onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + " copiado! copied!'));\">Copy</button></div>");
-        f105();
-        f104();
-      } else {}
-    }
-    theoKzObjects.loading = false;
-    if (v362 !== p432) {
-      vThis12.aj();
-    } else {
-      vThis12.Si();
-    }
-    localStorage.setItem("token__gg", p432);
-  } else {
-    vThis12.Xi();
-  }
-}
-};
-f82.prototype.Xi = function () {
-  this.Wi();
-};
-f82.prototype.$i = function () {
-  console.log("lo:fb");
-  FB.logout(function () {});
-};
-f82.prototype._i = function () {
-  console.log("lo:gg");
-  GoogleAuth.signOut();
-};
-return f82;
-}();
+          if (p435 && p435.user_data) {
+            f100(p435.user_data);
+            var v362 = this.ri;
+            vThis12.qi = true;
+            vThis12.ri = p432;
+            vThis12.si = p435.user_data;
+            theoKzObjects.FB_UserID = p435.user_data.userId;
+            vThis12.ti = p431;
+            f9(vF13.Oe, vThis12.ti, 60);
+            f101();
+            for (var vLN061 = 0; vLN061 < clientes.clientesActivos.length; vLN061++) {
+              var v363 = clientes.clientesActivos[vLN061].cliente_NOMBRE;
+              var v364 = clientes.clientesActivos[vLN061].cliente_ID;
+              var v365 = clientes.clientesActivos[vLN061].Client_VisibleSkin;
+              var v366 = clientes.clientesActivos[vLN061].Client_VisibleSkin1;
+              var v367 = clientes.clientesActivos[vLN061].Client_VisibleSkin2;
+              var v368 = clientes.clientesActivos[vLN061].Client_VisibleSkin3;
+              var v369 = clientes.clientesActivos[vLN061].Client_VisibleSkin4;
+              var v370 = clientes.clientesActivos[vLN061].Client_VisibleSkin5;
+              var v371 = clientes.clientesActivos[vLN061].Client_VisibleSkin6;
+              var v372 = clientes.clientesActivos[vLN061].Client_VisibleSkin7;
+              var v373 = clientes.clientesActivos[vLN061].Client_VisibleSkin8;
+              var v374 = clientes.clientesActivos[vLN061].Client_VisibleSkin9;
+              var v375 = clientes.clientesActivos[vLN061].Client_VisibleSkin10;
+              var v376 = clientes.clientesActivos[vLN061].Client_VisibleSkin11;
+              var v377 = clientes.clientesActivos[vLN061].Client_VisibleSkin12;
+              var v378 = clientes.clientesActivos[vLN061].Client_VisibleSkin13;
+              var v379 = clientes.clientesActivos[vLN061].Client_VisibleSkin14;
+              var v380 = clientes.clientesActivos[vLN061].Client_VisibleSkin15;
+              var v381 = clientes.clientesActivos[vLN061].Client_VisibleSkin16;
+              var v382 = clientes.clientesActivos[vLN061].Client_VisibleSkin17;
+              var v383 = clientes.clientesActivos[vLN061].Client_VisibleSkin18;
+              var v384 = clientes.clientesActivos[vLN061].Client_VisibleSkin19;
+              var v385 = clientes.clientesActivos[vLN061].Client_VisibleSkin20;
+              var v386 = clientes.clientesActivos[vLN061].Client_KeyAccecs;
+              var v387 = clientes.clientesActivos[vLN061].cliente_DateExpired;
+              if (theoKzObjects.FB_UserID == 0) {} else if (theoKzObjects.FB_UserID == v364) {
+                $("#mm-line-top").append("<div class='het-han'> Expiration date : " + v387 + "</div>");
+                $("#mm-line-bottom").append("<div class='het-han' style='left: 300px; top: 46px;font-size: 15px;'> Expiration date : " + v387 + "</div>");
+                $(".profile-user").append("<div class='het-han'> Expiration date : " + v387 + "</div>");
+                $(".profile-user").append("<div class=\"idwormate\"><input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" style=\"width: 88%; height: 35px; border-radius: 4px; font-size: 18px; /* padding: 0 6px; */ text-align: center; background-color: #fff; color: #0a6928; font-weight: 600; display: block;\"/>\n      <button style=\"padding: 19px; float: right; margin-top: -40px; margin-right: -40px; line-height: 0; font-size: 18px;\" onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + " copiado! copied!'));\">Copy</button></div>");
+                f105();
+                f104();
+              } else {}
+            }
+            theoKzObjects.loading = false;
+            if (v362 !== p432) {
+              vThis12.aj();
+            } else {
+              vThis12.Si();
+            }
+            localStorage.setItem("token__gg", p432);
+          } else {
+            vThis12.Xi();
+          }
+        }
+      };
+      f82.prototype.Xi = function () {
+        this.Wi();
+      };
+      f82.prototype.$i = function () {
+        console.log("lo:fb");
+        FB.logout(function () {});
+      };
+      f82.prototype._i = function () {
+        console.log("lo:gg");
+        GoogleAuth.signOut();
+      };
+      return f82;
+    }();
     var vF40 = function () {
       function f87() {
         this.cj = {};
@@ -6652,45 +6654,43 @@ return f82;
         }
       };
       var vF65 = function () {
-  function f97(p589, p590) {
-    this.sl = p589;
-    this.ol = 0;
-    this.nl = p590;
-  }
-  f97.prototype.gl = function () {
-    if (--this.ol < 0) {
-      this.ol = this.nl.list.length - 1;
-    }
-    this.sl.il(true);
-  };
-  f97.prototype.hl = function () {
-    if (++this.ol >= this.nl.list.length) {
-      this.ol = 0;
-    }
-    this.sl.il(true);
-  };
-  f97.prototype.kl = function () {
-    let vF112 = f11(this.nl.name);
-    if (this.nl.img) {
-      var vImgSrc = this.nl.img;
-      if (!/^https?:\/\//i.test(vImgSrc) && !/^\/\//.test(vImgSrc) && !/^data:/i.test(vImgSrc) && !/^blob:/i.test(vImgSrc)) {
-        vImgSrc = SITE_XTHOST + "/images/paths/" + vImgSrc;
-      }
-      vF112 = "<img src=\"" + vImgSrc + "\" height=\"43\" width=\"220\" />";
-    }
-    return vF112;
-  };
-  f97.prototype.ql = function () {
-    if (this.ol >= this.nl.list.length) {
-      return vF28.Yg();
-    } else {
-      return vF28.Zg(this.nl.list[this.ol]);
-    }
-  };
-  return f97;
-}();
-return vF1518;
-}();
+        function f97(p589, p590) {
+          this.sl = p589;
+          this.ol = 0;
+          this.nl = p590;
+        }
+        f97.prototype.gl = function () {
+          if (--this.ol < 0) {
+            this.ol = this.nl.list.length - 1;
+          }
+          this.sl.il(true);
+        };
+        f97.prototype.hl = function () {
+          if (++this.ol >= this.nl.list.length) {
+            this.ol = 0;
+          }
+          this.sl.il(true);
+        };
+        f97.prototype.kl = function () {
+          let vF112 = f11(this.nl.name);
+          if (this.nl.img) {
+            var vLSimgSrc = "<img src=\"";
+            vLSimgSrc = vLSimgSrc + SITE_XTHOST + "/images/paths/" + this.nl.img;
+            vF112 = vLSimgSrc = vLSimgSrc + "\" height=\"43\" width=\"220\" />";
+          }
+          return vF112;
+        };
+        f97.prototype.ql = function () {
+          if (this.ol >= this.nl.list.length) {
+            return vF28.Yg();
+          } else {
+            return vF28.Zg(this.nl.list[this.ol]);
+          }
+        };
+        return f97;
+      }();
+      return vF1518;
+    }();
     var vF66 = function () {
       var v$83 = $("#store-go-coins-button");
       var v$84 = $("#store-go-skins-button");
@@ -7581,48 +7581,9 @@ return vF1518;
       }
     }
     function f101() {
-      $("#mm-event-text").replaceWith("<div class=\"text-vnxx\"><a href=\"###\">WORM XY</a></div>");
+      $("#mm-event-text").replaceWith("<div class=\"text-vnxx\"><a href=\"https://www.facebook.com/WormateFriendsConnect\">â¤ï¸ Wormate Friends Connect 2025 â¤ï¸</a></div>");
       $(".mm-merchant-cont").replaceWith("<div class='youid'><button style=\"float: right;position: relative;min-width: 95px;background:#ff0000;height: 50px;\" onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + " copiado! copied!'));\">YOUR ID</button></div>");
-      $(function () {
-  try {
-    var vExpire = v387 || "N/A";
-
-    // حذف القديم اذا موجود حتى ما يتكرر
-    $(".column-left .contact-expire").remove();
-
-    // عرض جديد بشكل جميل
-    $(".column-left").append(
-      "<div class='contact contact-expire' style='\
-        padding:8px 12px;\
-        margin-top:6px;\
-        border-radius:8px;\
-        background:linear-gradient(45deg,#111,#222);\
-        color:#fff;\
-        font-size:13px;\
-        box-shadow:0 0 8px rgba(0,0,0,0.6);\
-        display:flex;\
-        align-items:center;\
-        gap:6px;\
-      '>\
-        <i class='fa fa-clock-o' style='color:#00ff99;'></i>\
-        Expiration: <span style='color:#00ff99;font-weight:bold;'>" + vExpire + "</span>\
-      </div>"
-    );
-
-    // شرط المستخدم مثل كودك
-    if (theoKzObjects.FB_UserID != 0 && theoKzObjects.FB_UserID == v364) {
-      $("#mm-line-top").append("<div class='het-han'>Expiration: " + vExpire + "</div>");
-      $("#mm-line-bottom").append("<div class='het-han' style='left:300px; top:46px; font-size:15px;'>Expiration: " + vExpire + "</div>");
-      $(".profile-user").append("<div class='het-han'>Expiration: " + vExpire + "</div>");
-    }
-
-    // حفظ مثل ما عندك
-    localStorage.setItem("token__gg", p432);
-
-  } catch (e) {
-    console.log("Expire UI Error:", e);
-  }
-})();
+      $(".column-left").append("<div class='contact'><i class='fa fa-phone'></i> Zalo, Whatapp : 0924623650</div>");
       $("#loa831pibur0w4gv").replaceWith("\n           \n           \n           \n           <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" />\n  \n    <div class=\"label\" id=\"titleSetings\">Notification</div>\n    <div class=\"bao-list1\">\n      \n      <input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" style=\"width: 85%;height: 23px;border-radius: 4px;font-size: 12px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border-width: 0;\"/>\n      <button style=\"height: 25px;float: right;margin-top: -24px;margin-right: -6px;line-height: 1.2;font-size: 14px;\" onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + " copiado! copied!'));\">Copy</button>\n      <center>\n        <div class=\"hg\"><a target=\"_blank\" href=\"https://thanhtoan.vuonghiep.com/\">Activated</a> </div>\n      </center>\n     <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color:48ff00;\"></i> Instructions for installing on IOS and iPad New 2024: <a style=\"color: #2ae1eb; font-weight: 600;\" href=\"https://www.youtube.com/watch?v=uyHHXWKHgRw\">https://www.youtube.com/watch?v=uyHHXWKHgRw</a> </div>\n      \n    \n</div>");
       var v529 = document.getElementById("settingBtn");
       var v530 = document.getElementById("settingContent");
@@ -7706,7 +7667,7 @@ return vF1518;
         }
       });
       $(".mm-merchant").replaceWith("");
-      $(".description-text").replaceWith("\n  <div class=\"description-text\">\n  <div class=\"title-wormate-friends-connect\" style=\"position: absolute; top: 0; z-index: 1; width: 95.5%;margin-top: 10px;\">\n<img src=\"https://i.imgur.com/maxIlov.png\" width=\"20\" align=\"center\" alt=\"\">WormXY</div>\n  <div class=\"description-text-hiep\">\n  <ul class=\"ui-tabs-nav\">\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active\" style=\"margin: -5px\">\n      <a> <span class=\"flag br\" value=\"https://i.imgur.com/dixYLjk.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive1\" style=\"margin: -5px\">\n      <a> <span class=\"flag mx\" value=\"https://i.imgur.com/JMAvuFN.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive2\" style=\"margin: -5px\">\n      <a> <span class=\"flag us\" value=\"https://i.imgur.com/Jb2FF0y.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive3\" style=\"margin: -5px\">\n      <a> <span class=\"flag ca\" value=\"https://i.imgur.com/m1skEsB.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive4\" style=\"margin: -5px\">\n      <a> <span class=\"flag de\" value=\"https://i.imgur.com/VgCH8iy.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive5\" style=\"margin: -5px\">\n      <a> <span class=\"flag fr\" value=\"https://i.imgur.com/QuEjBr0.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive6\" style=\"margin: -5px\">\n      <a> <span class=\"flag sg\" value=\"https://i.imgur.com/bT3xWqF.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive7\" style=\"margin: -5px\">\n      <a> <span class=\"flag jp\" value=\"https://i.imgur.com/P2rYk1k.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive8\" style=\"margin: -5px\">\n      <a> <span class=\"flag au\" value=\"https://i.imgur.com/X0co8Ao.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive9\" style=\"margin: -5px\">\n      <a> <span class=\"flag gb\" value=\"https://i.imgur.com/8pQY6RW.png\"></span> </a>\n    </li>\n  </ul>\n  <div class=\"gachngang\"></div>\n    <div id='mapsv'><div class='tensv'>Name</div><div class='valusv'>Region</div><div class='onlinesv'>On/Off</div><div class='img-teamsv'>Streamer</div></div>\n    \n    <div class=\"gachngang\"></div>\n    <div class=\"servers-container\">\n      <div class=\"servers-peru\"></div>\n      <div class=\"servers-mexico\" style=\"display: none;\"></div>\n      <div class=\"servers-eeuu\" style=\"display: none;\"></div>\n      <div class=\"servers-canada\" style=\"display: none;\"></div>\n      <div class=\"servers-germania\" style=\"display: none;\"></div>\n      <div class=\"servers-francia\" style=\"display: none;\"></div>\n      <div class=\"servers-singapur\" style=\"display: none;\"></div>\n      <div class=\"servers-japon\" style=\"display: none;\"></div>\n      <div class=\"servers-australia\" style=\"display: none;\"></div>\n      <div class=\"servers-granbretana\" style=\"display: none;\"></div>\n    </div>\n  </div>\n            \n             \n                    ");
+      $(".description-text").replaceWith("\n  <div class=\"description-text\">\n  <div class=\"title-wormate-friends-connect\" style=\"position: absolute; top: 0; z-index: 1; width: 95.5%;margin-top: 10px;\">\n<img src=\"https://i.imgur.com/FVK3Q8c.png\" width=\"20\" align=\"center\" alt=\"\">Wormate Friends Connect</div>\n  <div class=\"description-text-hiep\">\n  <ul class=\"ui-tabs-nav\">\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active\" style=\"margin: -5px\">\n      <a> <span class=\"flag br\" value=\"https://i.imgur.com/dixYLjk.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive1\" style=\"margin: -5px\">\n      <a> <span class=\"flag mx\" value=\"https://i.imgur.com/JMAvuFN.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive2\" style=\"margin: -5px\">\n      <a> <span class=\"flag us\" value=\"https://i.imgur.com/Jb2FF0y.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive3\" style=\"margin: -5px\">\n      <a> <span class=\"flag ca\" value=\"https://i.imgur.com/m1skEsB.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive4\" style=\"margin: -5px\">\n      <a> <span class=\"flag de\" value=\"https://i.imgur.com/VgCH8iy.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive5\" style=\"margin: -5px\">\n      <a> <span class=\"flag fr\" value=\"https://i.imgur.com/QuEjBr0.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive6\" style=\"margin: -5px\">\n      <a> <span class=\"flag sg\" value=\"https://i.imgur.com/bT3xWqF.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive7\" style=\"margin: -5px\">\n      <a> <span class=\"flag jp\" value=\"https://i.imgur.com/P2rYk1k.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive8\" style=\"margin: -5px\">\n      <a> <span class=\"flag au\" value=\"https://i.imgur.com/X0co8Ao.png\"></span> </a>\n    </li>\n    <li class=\"ui-tabs-tab ui-tab ui-tab-inactive9\" style=\"margin: -5px\">\n      <a> <span class=\"flag gb\" value=\"https://i.imgur.com/8pQY6RW.png\"></span> </a>\n    </li>\n  </ul>\n  <div class=\"gachngang\"></div>\n    <div id='mapsv'><div class='tensv'>Name</div><div class='valusv'>Region</div><div class='onlinesv'>On/Off</div><div class='img-teamsv'>Streamer</div></div>\n    \n    <div class=\"gachngang\"></div>\n    <div class=\"servers-container\">\n      <div class=\"servers-peru\"></div>\n      <div class=\"servers-mexico\" style=\"display: none;\"></div>\n      <div class=\"servers-eeuu\" style=\"display: none;\"></div>\n      <div class=\"servers-canada\" style=\"display: none;\"></div>\n      <div class=\"servers-germania\" style=\"display: none;\"></div>\n      <div class=\"servers-francia\" style=\"display: none;\"></div>\n      <div class=\"servers-singapur\" style=\"display: none;\"></div>\n      <div class=\"servers-japon\" style=\"display: none;\"></div>\n      <div class=\"servers-australia\" style=\"display: none;\"></div>\n      <div class=\"servers-granbretana\" style=\"display: none;\"></div>\n    </div>\n  </div>\n            \n             \n                    ");
       $(".ui-tab").on("click", account);
       $(".flag").click(function () {
         let v535 = $(this).attr("value");
@@ -8164,8 +8125,8 @@ return vF1518;
     }
     function f109() {
       $(".description-text").replaceWith("<div class=\"description-text\">");
-      $(".description-text").prepend("<p id='title'>WormXY</p>");
-      $("#title").after("<div id=\"idwormworld\" style=\"text-align: center\"><div class='logo'><img src='https://i.imgur.com/maxIlov.png'/></div>\n        <input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" style=\"width: 230px;text-align: center;border-radius: 4px;font-size: 20px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border-width: 0;\">\n        <button onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + " copiado! copied!'));\">COPY</button>\n    </div>\n<div></div>\n<div><input type=\"button\" value=\"ACTIVATE ALL\" target=\"_blank\" onclick=\"window.location.href='" + MYPAGE + "'\" style=\"margin-top: 5px; width: 100%\"></div>");
+      $(".description-text").prepend("<p id='title'>Wormate Friends</p>");
+      $("#title").after("<div id=\"idwormworld\" style=\"text-align: center\"><div class='logo'><img src='https://haylamday.com/images/hiep_img/logo.png'/></div>\n        <input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" style=\"width: 230px;text-align: center;border-radius: 4px;font-size: 20px;padding: 0 6px;background-color: #fff;color: #806102;display: block;box-sizing: border-box;-webkit-appearance: none;outline: 0;border-width: 0;\">\n        <button onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(()=> alert('You ID " + theoKzObjects.FB_UserID + " copiado! copied!'));\">COPY</button>\n    </div>\n<div></div>\n<div><input type=\"button\" value=\"ACTIVATE ALL\" target=\"_blank\" onclick=\"window.location.href='" + MYPAGE + "'\" style=\"margin-top: 5px; width: 100%\"></div>");
     }
     function f110() {
       localStorage.setItem("totalKills", theoKzObjects.totalKills);
@@ -8291,7 +8252,7 @@ return vF1518;
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (p626) {
       vO12 = p626;
       $.ajax({
-        url: "https://ii7modysmp-hue.github.io/wormxy/skins/get.php",
+        url: "https://haylamday.com/api/lan-da-vh.php",
         method: "GET",
         dataType: "json",
         success: function (p627) {
@@ -8323,7 +8284,7 @@ return vF1518;
   $("#background-canvas").replaceWith("<canvas id=\"background-canvas\">\n   </canvas>\n   ");
   $("#popup-login-gg").html("<div class=\"settings-line\" id=\"popup-login-gg1\">Login via Google</div>");
   $("#social-buttons").replaceWith("");
-  $("#markup-footer").replaceWith("\n    \n \n\n<footer id=\"markup-footer\">\n            <div class=\"lang-menu\"><button class=\"lang-button\">Language â–´</button>\n            <div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">English</a>\n<a hreflang=\"uk\" href=\"/uk/\">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a>\n<a hreflang=\"de\" href=\"/de/\">Deutsch</a>\n<a hreflang=\"fr\" href=\"/fr/\">Farance</a>\n<a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a>\n</div></div>\n            \n            <a class=\"link\" hreflang=\"en\" href=\"###\">WormXY @ 2026</a>\n          <a style=\"font-size: 17px;font-weight: 500;color: #ce1010;\"> Platen - AbsiBmw <i class='fa fa-heart animated infinite pulse' style='color:red'></i></a>\n            </footer>\n\n        ");
+  $("#markup-footer").replaceWith("\n    \n \n\n<footer id=\"markup-footer\">\n            <div class=\"lang-menu\"><button class=\"lang-button\">Language â–´</button>\n            <div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">English</a>\n<a hreflang=\"uk\" href=\"/uk/\">Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ°</a>\n<a hreflang=\"de\" href=\"/de/\">Deutsch</a>\n<a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a>\n<a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a>\n</div></div>\n            \n            <a class=\"link\" hreflang=\"en\" href=\"https://VuongHiep.Com\">Â© 2025 Wormate Friends Connect</a>\n          <a style=\"font-size: 17px;font-weight: 500;color: #1200ff;\"> Made with <i class='fa fa-heart animated infinite pulse' style='color:red'></i> in BÃ  Rá»‹a VÅ©ng TÃ u !</a>\n            </footer>\n\n        ");
 });
 if (!sessionStorage.getItem("visited")) {
   sessionStorage.setItem("visited", "true");
@@ -8607,4 +8568,49 @@ isValidHotkey = function (p633) {
     return false;
   }
 };
-
+window.onload = function () {
+  var vA18 = [{
+    gradient: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><polygon points='50,5 61,35 95,35 67,57 76,91 50,70 24,91 33,57 5,35 39,35' fill='rgba(255, 255, 255, 0.3)'/></svg>\") repeat,linear-gradient(45deg, #32CD32 20%, #FFD700 100%)",
+    size: "120px 120px, 100% 100%"
+  }, {
+    gradient: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><rect x='30' y='30' width='40' height='40' fill='rgba(255,255,255,0.2)'/></svg>\") repeat,linear-gradient(45deg, #0000FF 20%, #8A2BE2 100%)",
+    size: "100px 100px, 100% 100%"
+  }, {
+    gradient: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'><polygon points='50,10 90,50 50,90 10,50' fill='rgba(255,255,255,0.25)'/></svg>\") repeat,linear-gradient(45deg, #0000FF 20%, #8A2BE2 100%)",
+    size: "100px 100px, 100% 100%"
+  }];
+  var v609 = localStorage.getItem("lastSelected");
+  var v610 = vA18.map((p634, p635) => p635).filter(p636 => p636 != v609);
+  var v611 = v610[Math.floor(Math.random() * v610.length)];
+  var v612 = vA18[v611];
+  localStorage.setItem("lastSelected", v611);
+  var v613 = document.getElementById("game-wrap");
+  v613.style.background = v612.gradient;
+  v613.style.backgroundSize = v612.size;
+};
+console.log("Core 2022 THEO Update 2023");
+(function () {
+  var vSetInterval2 = setInterval(function () {
+    try {} catch (e30) {}
+  }, 100);
+})();
+document.addEventListener("keydown", function (p637) {
+  if (p637.key === "F12") {
+    p637.preventDefault();
+  }
+  if (p637.ctrlKey && p637.shiftKey && p637.key === "I") {
+    p637.preventDefault();
+  }
+  if (p637.ctrlKey && p637.key === "U") {
+    p637.preventDefault();
+  }
+});
+document.addEventListener("contextmenu", function (p638) {
+  p638.preventDefault();
+});
+(function () {
+  var v614 = document.createElement("script");
+  v614.textContent = "\n        (function() {\n            var preventDebugging = setInterval(function() {\n                if (window.console) {\n                    console.log = function() {}; \n                    console.debug = function() {}; \n                    console.error = function() {}; \n                    console.info = function() {};  \n                }\n            }, 1000);\n        })();\n    ";
+  document.head.appendChild(v614);
+})();
+console.log("%cDeveloper By Vuonghiep.com", "color: #FF7F00; font-size: 18px; font-weight: bold;");
