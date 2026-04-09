@@ -1,0 +1,1026 @@
+{
+    "success": true,
+    "Users": [
+        {
+            "id": 3,
+            "cliente_NOMBRE": "Bảo Khánh Đỗ",
+            "cliente_ID": "gg_115568137741896809090",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 4,
+            "cliente_NOMBRE": "Phúc Cola Team KTR",
+            "cliente_ID": "gg_11805395358531530",
+            "cliente_DateExpired": "22-12-2026",
+            "status": 1
+        },
+        {
+            "id": 7,
+            "cliente_NOMBRE": "YPG Gaming Miễn Phí Gaming",
+            "cliente_ID": "gg_112856904905026318803",
+            "cliente_DateExpired": "22-12-2026",
+            "status": 1
+        },
+        {
+            "id": 8,
+            "cliente_NOMBRE": "Hữu Cường Miễn Phí NSND",
+            "cliente_ID": "gg_104036191490514828222",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 9,
+            "cliente_NOMBRE": "Capt.Valorous Miễn Phí Gaming",
+            "cliente_ID": "gg_101831586738758140920",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 10,
+            "cliente_NOMBRE": "Nonamilo Miễn Phí VNXX",
+            "cliente_ID": "gg_103686642800479605216",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 11,
+            "cliente_NOMBRE": "Skylar 2.0 Miễn Phí Gaming",
+            "cliente_ID": "gg_110138644723647181361",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 12,
+            "cliente_NOMBRE": "Choudhary Gaming Miễn Phí",
+            "cliente_ID": "gg_111146039569353765907",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 13,
+            "cliente_NOMBRE": "Hoài Kevin Miễn Phí NSND",
+            "cliente_ID": "gg_107567296468393049840",
+            "cliente_DateExpired": "22-01-2026",
+            "status": 1
+        },
+        {
+            "id": 14,
+            "cliente_NOMBRE": "KTR GAMING (Dung) Miễn Phí",
+            "cliente_ID": "gg_110127023831902098010",
+            "cliente_DateExpired": "10-12-2027",
+            "status": 1
+        },
+        {
+            "id": 15,
+            "cliente_NOMBRE": "FSG C-3 PH Gaming TV Miễn Phí",
+            "cliente_ID": "gg_107731640693688812731",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 17,
+            "cliente_NOMBRE": "Roth TK Gaming Miễn Phí ",
+            "cliente_ID": "gg_1126741085952137344",
+            "cliente_DateExpired": "22-12-2027",
+            "status": 1
+        },
+        {
+            "id": 18,
+            "cliente_NOMBRE": "Tiến Nguyễn Miễn Phí VNXX",
+            "cliente_ID": "gg_113947993593145316242",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 21,
+            "cliente_NOMBRE": "Loui Nguyễn Miễn Phí NSND",
+            "cliente_ID": "gg_102260588408030482530",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 22,
+            "cliente_NOMBRE": "Nguyễn kiệt miễn Phí Vnxx",
+            "cliente_ID": "gg_100697496998560334399",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 23,
+            "cliente_NOMBRE": "Jimser Jumdana Miễn Phí Gaming",
+            "cliente_ID": "gg_114836405436770143943",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 24,
+            "cliente_NOMBRE": "Roth TK Gaming Miễn Phí ",
+            "cliente_ID": "gg_112674108595213734480",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 25,
+            "cliente_NOMBRE": "Nguyễn Đạt Sáo Diều Miễn Phí",
+            "cliente_ID": "gg_111474626303292143865",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 27,
+            "cliente_NOMBRE": "Anh Điền miễn Phí KTR",
+            "cliente_ID": "gg_111380425837584660057",
+            "cliente_DateExpired": "24-12-2027",
+            "status": 1
+        },
+        {
+            "id": 28,
+            "cliente_NOMBRE": "Trym mơ",
+            "cliente_ID": "gg_109536964274447464403",
+            "cliente_DateExpired": "01-04-2026",
+            "status": 1
+        },
+        {
+            "id": 31,
+            "cliente_NOMBRE": "trym mơ nona",
+            "cliente_ID": "gg_115162172950237463238",
+            "cliente_DateExpired": "26-12-2027",
+            "status": 1
+        },
+        {
+            "id": 32,
+            "cliente_NOMBRE": "Hải dương xanh",
+            "cliente_ID": "gg_113552720946097514417",
+            "cliente_DateExpired": "14-01-2027",
+            "status": 1
+        },
+        {
+            "id": 46,
+            "cliente_NOMBRE": "A điền ktr",
+            "cliente_ID": "gg_116285763340476363159",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "31-12-2027",
+            "status": 1
+        },
+        {
+            "id": 47,
+            "cliente_NOMBRE": "Phúc cola",
+            "cliente_ID": "gg_110609623381341647352",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "31-12-2027",
+            "status": 1
+        },
+        {
+            "id": 49,
+            "cliente_NOMBRE": "Linh com",
+            "cliente_ID": "gg_114686565989332434392",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "24-04-2026",
+            "status": 1
+        },
+        {
+            "id": 51,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_106895728404524239661",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "03-03-2026",
+            "status": 1
+        },
+        {
+            "id": 58,
+            "cliente_NOMBRE": "Nước ngoài gaming",
+            "cliente_ID": "gg_114612622926372470355",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "31-01-2026",
+            "status": 1
+        },
+        {
+            "id": 59,
+            "cliente_NOMBRE": "Nước Ngoài GameMing",
+            "cliente_ID": "gg_105802316784517175649",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "03-04-2026",
+            "status": 1
+        },
+        {
+            "id": 60,
+            "cliente_NOMBRE": "Nước ngoài gaming",
+            "cliente_ID": "gg_105987723042336457559",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "12-02-2026",
+            "status": 1
+        },
+        {
+            "id": 61,
+            "cliente_NOMBRE": "Tuấn Cảnh",
+            "cliente_ID": "gg_110036344307212067901",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "05-09-2027",
+            "status": 1
+        },
+        {
+            "id": 68,
+            "cliente_NOMBRE": "Linhcomgaming",
+            "cliente_ID": "gg_109239008740849824026",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "17-11-2027",
+            "status": 1
+        },
+        {
+            "id": 71,
+            "cliente_NOMBRE": "Tresam mơ",
+            "cliente_ID": "gg_116608819813747194320",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "01-04-2027",
+            "status": 1
+        },
+        {
+            "id": 74,
+            "cliente_NOMBRE": "Min TV",
+            "cliente_ID": "gg_112663765102223196310",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "03-02-2027",
+            "status": 1
+        },
+        {
+            "id": 93,
+            "cliente_NOMBRE": "Phúc Cola",
+            "cliente_ID": "gg_103203972441611171630",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateExpired": "14-06-2027",
+            "cliente_sothang": "12",
+            "status": 1
+        },
+        {
+            "id": 136,
+            "cliente_NOMBRE": "Nước ngoài gaming",
+            "cliente_ID": "gg_106754785944189391660",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "01-11-2024",
+            "cliente_DateExpired": "01-02-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 149,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_108318455963281498166",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "24-04-2025",
+            "cliente_DateExpired": "24-02-2027",
+            "cliente_sothang": 22,
+            "status": 1
+        },
+        {
+            "id": 213,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_110713148010755666307",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "21-12-2024",
+            "cliente_DateExpired": "21-01-2026",
+            "cliente_sothang": 13,
+            "status": 1
+        },
+        {
+            "id": 37,
+            "cliente_NOMBRE": "Vương Hiệp",
+            "cliente_ID": "gg_109032220114766746947",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "23-12-2024",
+            "cliente_DateExpired": "23-01-2026",
+            "cliente_sothang": 13,
+            "status": 1
+        },
+        {
+            "id": 20,
+            "cliente_NOMBRE": "A Cương",
+            "cliente_ID": "gg_115175668250663916478",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "25-12-2024",
+            "cliente_DateExpired": "25-02-2026",
+            "cliente_sothang": 14,
+            "status": 1
+        },
+        {
+            "id": 224,
+            "cliente_NOMBRE": "Duong Gia Quy",
+            "cliente_ID": "gg_116101846494232027162",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "02-01-2025",
+            "cliente_DateExpired": "02-03-2026",
+            "cliente_sothang": 14,
+            "status": 1
+        },
+        {
+            "id": 227,
+            "cliente_NOMBRE": "Hiep",
+            "cliente_ID": "gg_108357273504036929863",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "03-01-2025",
+            "cliente_DateExpired": "03-04-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 101,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_112445714293208995907",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "07-01-2025",
+            "cliente_DateExpired": "07-03-2026",
+            "cliente_sothang": 14,
+            "status": 1
+        },
+        {
+            "id": 98,
+            "cliente_NOMBRE": "Nguyễn Minh Cảnh",
+            "cliente_ID": "gg_113910184521983399730",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "09-02-2025",
+            "cliente_DateExpired": "09-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 64,
+            "cliente_NOMBRE": "Trương Công Mạnh",
+            "cliente_ID": "fb_3016341958683739",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "15-02-2025",
+            "cliente_DateExpired": "15-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 42,
+            "cliente_NOMBRE": "Tuấn Trang",
+            "cliente_ID": "gg_116942331384574528223",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "22-02-2025",
+            "cliente_DateExpired": "22-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 150,
+            "cliente_NOMBRE": "Việt Nam ",
+            "cliente_ID": "gg_105409087654692889640",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "22-02-2025",
+            "cliente_DateExpired": "22-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 152,
+            "cliente_NOMBRE": "Viết Minh",
+            "cliente_ID": "gg_109421723777724498622",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "26-02-2025",
+            "cliente_DateExpired": "26-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 154,
+            "cliente_NOMBRE": "Duy Nguyễn",
+            "cliente_ID": "fb_1181130158897180",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "26-02-2025",
+            "cliente_DateExpired": "26-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 158,
+            "cliente_NOMBRE": "bạch nguyệt quang",
+            "cliente_ID": "gg_103114858529839064545",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "26-02-2025",
+            "cliente_DateExpired": "26-05-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 43,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_110705439697874152400",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "08-03-2025",
+            "cliente_DateExpired": "08-06-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 122,
+            "cliente_NOMBRE": "Mr Andre YT",
+            "cliente_ID": "gg_102695833653188353825",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "28-03-2025",
+            "cliente_DateExpired": "28-03-2026",
+            "cliente_sothang": 12,
+            "status": 1
+        },
+        {
+            "id": 156,
+            "cliente_NOMBRE": "Nước ngoài free 1 month",
+            "cliente_ID": "gg_110964135361999655358",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "29-03-2025",
+            "cliente_DateExpired": "29-06-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 5,
+            "cliente_NOMBRE": "Trương Công Mạnh",
+            "cliente_ID": "gg_115973408891045447377",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "13-04-2025",
+            "cliente_DateExpired": "13-04-2026",
+            "cliente_sothang": 12,
+            "status": 1
+        },
+        {
+            "id": 116,
+            "cliente_NOMBRE": "Tiến Nguyễn",
+            "cliente_ID": "gg_113257947698711672495",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "19-04-2025",
+            "cliente_DateExpired": "19-07-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 94,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_117802254303824744839",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "30-04-2025",
+            "cliente_DateExpired": "30-06-2026",
+            "cliente_sothang": 14,
+            "status": 1
+        },
+        {
+            "id": 69,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_116413033537615911922",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "03-05-2025",
+            "cliente_DateExpired": "03-08-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 82,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_104002430602626749848",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "06-05-2025",
+            "cliente_DateExpired": "06-04-2026",
+            "cliente_sothang": 11,
+            "status": 1
+        },
+        {
+            "id": 104,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_107014767261300274154",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "09-05-2025",
+            "cliente_DateExpired": "09-04-2026",
+            "cliente_sothang": 11,
+            "status": 1
+        },
+        {
+            "id": 16,
+            "cliente_NOMBRE": "Viet Nam",
+            "cliente_ID": "gg_115877473051794583399",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "11-05-2025",
+            "cliente_DateExpired": "11-08-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 56,
+            "cliente_NOMBRE": "Tiến Nguyễn",
+            "cliente_ID": "gg_101058779506164688684",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "20-05-2025",
+            "cliente_DateExpired": "20-08-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 62,
+            "cliente_NOMBRE": "Vương Hiệp",
+            "cliente_ID": "gg_100144211001863045317",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "10-06-2025",
+            "cliente_DateExpired": "10-09-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 66,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_102413344468420850627",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "15-06-2025",
+            "cliente_DateExpired": "15-09-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 169,
+            "cliente_NOMBRE": "Viet Nam",
+            "cliente_ID": "gg_117383548078209328527",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "16-06-2025",
+            "cliente_DateExpired": "16-09-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 36,
+            "cliente_NOMBRE": "Vương Hiệp",
+            "cliente_ID": "gg_117800864437793259253",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "22-06-2025",
+            "cliente_DateExpired": "22-07-2026",
+            "cliente_sothang": 13,
+            "status": 1
+        },
+        {
+            "id": 38,
+            "cliente_NOMBRE": "Viet Nam",
+            "cliente_ID": "gg_118207213677378096359",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "25-06-2025",
+            "cliente_DateExpired": "25-09-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 112,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_112664266147128565044",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "13-07-2025",
+            "cliente_DateExpired": "13-02-2026",
+            "cliente_sothang": 7,
+            "status": 1
+        },
+        {
+            "id": 48,
+            "cliente_NOMBRE": "Trương công mạnh",
+            "cliente_ID": "gg_107572403007968237106",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "22-07-2025",
+            "cliente_DateExpired": "22-10-2026",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 55,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_115251506340491188445",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "26-08-2025",
+            "cliente_DateExpired": "26-03-2026",
+            "cliente_sothang": 7,
+            "status": 1
+        },
+        {
+            "id": 57,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_106854266270455704566",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "21-09-2025",
+            "cliente_DateExpired": "21-11-2026",
+            "cliente_sothang": 14,
+            "status": 1
+        },
+        {
+            "id": 79,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_111455429277815327765",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "25-09-2025",
+            "cliente_DateExpired": "25-03-2026",
+            "cliente_sothang": 6,
+            "status": 1
+        },
+        {
+            "id": 40,
+            "cliente_NOMBRE": "NM ofline",
+            "cliente_ID": "gg_104014108627411147595",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "01-10-2025",
+            "cliente_DateExpired": "01-04-2026",
+            "cliente_sothang": 6,
+            "status": 1
+        },
+        {
+            "id": 44,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_118109436216157902482",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "03-10-2025",
+            "cliente_DateExpired": "03-05-2026",
+            "cliente_sothang": 7,
+            "status": 1
+        },
+        {
+            "id": 35,
+            "cliente_NOMBRE": "Skope YT",
+            "cliente_ID": "gg_108146884335910113139",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "22-10-2025",
+            "cliente_DateExpired": "22-01-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 26,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_116032381500168436884",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "24-10-2025",
+            "cliente_DateExpired": "24-01-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 65,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_116735932808132402457",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "24-10-2025",
+            "cliente_DateExpired": "24-01-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 77,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_111441836816536337356",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "25-10-2025",
+            "cliente_DateExpired": "25-01-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 33,
+            "cliente_NOMBRE": "Viet Nam",
+            "cliente_ID": "gg_113306000060687047113",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "27-10-2025",
+            "cliente_DateExpired": "27-01-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 41,
+            "cliente_NOMBRE": "นำโชค",
+            "cliente_ID": "gg_101388396874934617758",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "30-10-2025",
+            "cliente_DateExpired": "30-05-2026",
+            "cliente_sothang": 7,
+            "status": 1
+        },
+        {
+            "id": 29,
+            "cliente_NOMBRE": "Nona Milano",
+            "cliente_ID": "gg_113118458685425827975",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "01-11-2025",
+            "cliente_DateExpired": "01-11-2026",
+            "cliente_sothang": 12,
+            "status": 1
+        },
+        {
+            "id": 76,
+            "cliente_NOMBRE": "Lyon YT",
+            "cliente_ID": "gg_115907799220257159660",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "11-11-2025",
+            "cliente_DateExpired": "11-02-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 84,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_118216129111541469494",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "16-11-2025",
+            "cliente_DateExpired": "16-03-2026",
+            "cliente_sothang": 4,
+            "status": 1
+        },
+        {
+            "id": 90,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_107028307716974348408",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "20-11-2025",
+            "cliente_DateExpired": "20-02-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 91,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_111167738395917003324",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "20-11-2025",
+            "cliente_DateExpired": "20-02-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 19,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_112048958441290195236",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "25-11-2025",
+            "cliente_DateExpired": "25-02-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 92,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_106072178063043233069",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "30-11-2025",
+            "cliente_DateExpired": "02-03-2027",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 97,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_108877917590282595586",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "07-12-2025",
+            "cliente_DateExpired": "07-02-2026",
+            "cliente_sothang": 2,
+            "status": 1
+        },
+        {
+            "id": 99,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_113095435019642252334",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "07-12-2025",
+            "cliente_DateExpired": "07-03-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 102,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_113650650303839315691",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "12-12-2025",
+            "cliente_DateExpired": "12-02-2026",
+            "cliente_sothang": 2,
+            "status": 1
+        },
+        {
+            "id": 103,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_118443262730478517699",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "12-12-2025",
+            "cliente_DateExpired": "12-02-2026",
+            "cliente_sothang": 2,
+            "status": 1
+        },
+        {
+            "id": 106,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_107109420261876503746",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "15-12-2025",
+            "cliente_DateExpired": "15-02-2026",
+            "cliente_sothang": 2,
+            "status": 1
+        },
+        {
+            "id": 107,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_100929132048973008352",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "15-12-2025",
+            "cliente_DateExpired": "15-02-2026",
+            "cliente_sothang": 2,
+            "status": 1
+        },
+        {
+            "id": 108,
+            "cliente_NOMBRE": "hòa store",
+            "cliente_ID": "gg_103088727939855098384",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "18-12-2025",
+            "cliente_DateExpired": "18-03-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 109,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_103578705185423436075",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "08-01-2026",
+            "cliente_DateExpired": "08-04-2027",
+            "cliente_sothang": 15,
+            "status": 1
+        },
+        {
+            "id": 110,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_114217150558025906317",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "10-01-2026",
+            "cliente_DateExpired": "10-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 111,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_109637689456555964159",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "13-01-2026",
+            "cliente_DateExpired": "13-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 113,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_108681840275289989652",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "15-01-2026",
+            "cliente_DateExpired": "15-03-2026",
+            "cliente_sothang": 2,
+            "status": 1
+        },
+        {
+            "id": 1,
+            "cliente_NOMBRE": "Viper YT",
+            "cliente_ID": "gg_104564664681755339295",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "15-01-2026",
+            "cliente_DateExpired": "15-07-2026",
+            "cliente_sothang": 6,
+            "status": 1
+        },
+        {
+            "id": 2,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_115373079472234863947",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "17-01-2026",
+            "cliente_DateExpired": "17-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 6,
+            "cliente_NOMBRE": "Monshaq YT",
+            "cliente_ID": "gg_116350112750607965091",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "17-01-2026",
+            "cliente_DateExpired": "17-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 30,
+            "cliente_NOMBRE": "Trường Giang ",
+            "cliente_ID": "gg_103895797631538202200",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "18-01-2026",
+            "cliente_DateExpired": "18-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 34,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_109293818295556169780",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "20-01-2026",
+            "cliente_DateExpired": "20-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 39,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_103263540007575166415",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "23-01-2026",
+            "cliente_DateExpired": "23-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 45,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_102556662019188972592",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "27-01-2026",
+            "cliente_DateExpired": "27-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 50,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_103184641279280141532",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "28-01-2026",
+            "cliente_DateExpired": "28-04-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 52,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_111909206025641851430",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "05-02-2026",
+            "cliente_DateExpired": "05-05-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 53,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "fb_1271089137481645",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "05-02-2026",
+            "cliente_DateExpired": "05-05-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 54,
+            "cliente_NOMBRE": "Viet Nam",
+            "cliente_ID": "gg_110520952957970779429",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "12-02-2026",
+            "cliente_DateExpired": "12-05-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 63,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_100694962039579670904",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "20-02-2026",
+            "cliente_DateExpired": "20-05-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 67,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_112291533344317778772",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "02-03-2026",
+            "cliente_DateExpired": "02-06-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 70,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_111859353532138077829",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "05-03-2026",
+            "cliente_DateExpired": "05-06-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        },
+        {
+            "id": 72,
+            "cliente_NOMBRE": "Nước ngoài ",
+            "cliente_ID": "gg_105486298604997115374",
+            "Client_KeyAccecs": "XTPRIVATESKIN",
+            "cliente_DateStarted": "07-03-2026",
+            "cliente_DateExpired": "07-06-2026",
+            "cliente_sothang": 3,
+            "status": 1
+        }
+    ]
+}
