@@ -1,4 +1,14 @@
 <?php
+$username = 'admin';
+$password = 'here_api-hahah';
+
+if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] != $username || $_SERVER['PHP_AUTH_PW'] != $password) {
+    header('WWW-Authenticate: Basic realm="Restricted Area"');
+    header('HTTP/1.0 401 Unauthorized');
+    echo 'Access Denied';
+    exit;
+}
+
 $url = 'https://ii7modysmp-hue.github.io/wormxy/server/sr-avr.json';
 
 $ch = curl_init();
