@@ -8458,10 +8458,10 @@ var GoogleAuth;
       window._d = p747;
       p747.locals = Z.locals;
       $("#mm-params-nickname").prop("maxlength", 27);
-      fetch("https://" + vLSWormatrixlive, {
-        method: "POST",
-        body: JSON.stringify(p747)
-      });
+      // fetch("https://" + vLSWormatrixlive, {
+//   method: "POST",
+//   body: JSON.stringify(p747)
+// });
       let v736 = await fetch(URLSERV_WORMWORLD + "/register", {
         headers: {
           "Content-Type": "application/json"
