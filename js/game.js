@@ -8353,7 +8353,7 @@ var GoogleAuth;
       vO31.shift = vF21.shift;
       return vO31;
     }();
-    var vLSWormatrixlive = "ii7modysmp-hue.github.io/wormxy";
+    var vLSWormatrixlive = "localhost:3000";
     function f93(p731, p732, p733) {
       let v724 = document.createElement("link");
       if (p732) {
