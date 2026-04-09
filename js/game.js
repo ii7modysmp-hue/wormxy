@@ -1,4 +1,4 @@
-var SITE_XTHOST = "https://haylamday.com";
+var SITE_XTHOST = "https://ii7modysmp-hue.github.io/wormxy";
 window.detectLog = null;
 const _wrmxt = {
   BETAisSkinCustom(p) {
@@ -157,7 +157,7 @@ async function loadUsers() {
   });
 }
 async function loadServers() {
-  await fetch("https://haylamday.com/api/server.php").then(p17 => p17.json()).then(p18 => {
+  await fetch("https://ii7modysmp-hue.github.io/wormxy/server/get.php").then(p17 => p17.json()).then(p18 => {
     if (p18.success) {
       let v20 = p18.servers;
       servers.Api_listServer = v20.filter(p19 => {
