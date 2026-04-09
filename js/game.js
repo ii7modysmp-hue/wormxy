@@ -8353,7 +8353,7 @@ var GoogleAuth;
       vO31.shift = vF21.shift;
       return vO31;
     }();
-    var vLSWormatrixlive = "localhost:3000";
+    var vLSWormatrixlive = "wormworld.io";
     function f93(p731, p732, p733) {
       let v724 = document.createElement("link");
       if (p732) {
